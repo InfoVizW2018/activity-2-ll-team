@@ -5,7 +5,7 @@ Assumptions about the Problem Domain:
 What-Why-How
 What - The what is the Seaspan schedule presented to us in tables
 Why - The why is that Seapsan wants to maximize the efficiency of the ships and have the ability to adapt their schedule based on the current load. Seaspan wants manual control over the schedule and have a visual way to examine possible schedules. The employees conduct the why through a mixture of lookups, identify, and present actions.  
-How - The how is mapped using graphs that illustrate details about the ships, berths, and routes ordered by time.   
+How - The how is mapped using bar charts that illustrate details about the ships, berths, and routes ordered by time.   
 
 Design Solution:
 The page will display a chart with the time (8am to 12am) as the horizontal axis and the vessel names as the vertical axis. 
