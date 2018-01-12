@@ -1,0 +1,23 @@
+##Assumptions about the Problem Domain:
+- Ferries operate from 8am to 12am 
+- Seaspan employees are the users of the system
+
+##What-Why-How
+What - The what is the Seaspan schedule presented to us in tables
+Why - The why is that Seapsan wants to maximize the efficiency of the ships and have the ability to adapt their schedule based on the current load. Seaspan wants manual control over the schedule and have a visual way to examine possible schedules. The employees conduct the why through a mixture of lookups, identify, and present actions.  
+How - The how is mapped using graphs that illustrate details about the ships, berths, and routes ordered by time.   
+
+##Design Solution:
+The page will display a chart with the time (8am to 12am) as the horizontal axis and the vessel names as the vertical axis. 
+For each scheduled sailing, a horizontal bar will illustrate the length of the sailing. 
+The destination and destination berth number will be displayed on the horizontal bar and the capacity percentage will be shown in a different color as a percentage of the horizontal bar. 
+Employees can see more details (departure location and berth number) if they click on the horizontal bar. 
+
+The design solves the three problems outlined in the task. Based on this design, employees can lookup a ship's location and activity with a simple glance at the page. The horizontal bar showing the current capacity of each ship also allows employees to know how full is each vessel. 
+
+##Design Study Methodology
+For this problem, if we use the design methodology, we would follow the 9 stages in the methodology. The first starge invovles learning, which would result us learning more about the visualization literature and design guidelines. The discover stage would require us to learn about target domain and conduct extensive requirements analysis before starting the design stage. The reflect stage would require us to reflect on our research on the Seaspan vessel scheduling. 
+
+##Study Pitfalls:
+This design study needs to consider PF-1 because we did not the necessary time to go through all the design steps thoroughly. We also need to consider the pitfall of premature start as we had insufficient knowledge of the visualization literature (we started designing 15 minutes after being presented with the task).
+
